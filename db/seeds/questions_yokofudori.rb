@@ -1,0 +1,251 @@
+questions = [
+{
+    content: "横歩取りに関するクイズ問題その1。この局面で最善手は？",
+    image_path: "db/seed_images/横歩取り１.png",
+    pattern: "横歩取り",
+    option1_path: "db/seed_images/横歩取り１成功１.png",
+    option2_path: "db/seed_images/横歩取り１失敗１.png",
+    correct: 1,
+    e_imagesippai1_path: "db/seed_images/横歩取り１失敗１.png",
+    e_imagesippai2_path: "db/seed_images/横歩取り１失敗２.png",
+    e_imagesippai3_path: "db/seed_images/横歩取り１失敗３.png",
+    e_imagesippai4_path: "db/seed_images/横歩取り１失敗４.png",
+    e_imagesippai5_path: "db/seed_images/横歩取り１失敗５.png",
+    e_imagesippai6_path: "db/seed_images/横歩取り１失敗６.png",
+    e_imagesippai7_path: "db/seed_images/横歩取り１失敗７.png",
+    e_imagesippai8_path: "db/seed_images/横歩取り１失敗８.png",
+    e_imageseiko1_path: "db/seed_images/横歩取り１成功１.png",
+    e_imageseiko2_path: "db/seed_images/横歩取り１成功２.png",
+    e_imageseiko3_path: "db/seed_images/横歩取り１成功３.png"
+  },
+  {
+    content: "横歩取りに関するクイズ問題その2。この局面で最善手は？",
+    image_path: "db/seed_images/横歩取り２.png",
+    pattern: "横歩取り",
+    option1_path: "db/seed_images/横歩取り２失敗１.png",
+    option2_path: "db/seed_images/横歩取り２成功１.png",
+    correct: 2,
+    e_imagesippai1_path: "db/seed_images/横歩取り２失敗１.png",
+    e_imagesippai2_path: "db/seed_images/横歩取り２失敗２.png",
+    e_imagesippai3_path: "db/seed_images/横歩取り２失敗３.png",
+    e_imagesippai4_path: "db/seed_images/横歩取り２失敗４.png",
+    e_imagesippai5_path: "db/seed_images/横歩取り２失敗５.png",
+    e_imageseiko1_path: "db/seed_images/横歩取り２成功１.png",
+    e_imageseiko2_path: "db/seed_images/横歩取り２成功２.png",
+    e_imageseiko3_path: "db/seed_images/横歩取り２成功３.png",
+    e_imageseiko4_path: "db/seed_images/横歩取り２成功４.png",
+    e_imageseiko5_path: "db/seed_images/横歩取り２成功５.png",
+    e_imageseiko6_path: "db/seed_images/横歩取り２成功６.png",
+    e_imageseiko7_path: "db/seed_images/横歩取り２成功７.png"
+  },
+  {
+    content: "横歩取りに関するクイズ問題その3。この局面で最善手は？",
+    image_path: "db/seed_images/横歩取り３.png",
+    pattern: "横歩取り",
+    option1_path: "db/seed_images/横歩取り３成功１.png",
+    option2_path: "db/seed_images/横歩取り３失敗１.png",
+    correct: 1,
+    e_imagesippai1_path: "db/seed_images/横歩取り３失敗１.png",
+    e_imagesippai2_path: "db/seed_images/横歩取り３失敗２.png",
+    e_imagesippai3_path: "db/seed_images/横歩取り３失敗３.png",
+    e_imagesippai4_path: "db/seed_images/横歩取り３失敗４.png",
+    e_imagesippai5_path: "db/seed_images/横歩取り３失敗５.png",
+    e_imagesippai6_path: "db/seed_images/横歩取り３失敗６.png",
+    e_imagesippai7_path: "db/seed_images/横歩取り３失敗７.png",
+    e_imagesippai8_path: "db/seed_images/横歩取り３失敗８.png",
+    e_imagesippai9_path: "db/seed_images/横歩取り３失敗９.png",
+    e_imagesippai10_path: "db/seed_images/横歩取り３失敗１０.png",
+    e_imagesippai11_path: "db/seed_images/横歩取り３失敗１１.png",
+    e_imagesippai12_path: "db/seed_images/横歩取り３失敗１２.png",
+    e_imagesippai13_path: "db/seed_images/横歩取り３失敗１３.png",
+    e_imagesippai14_path: "db/seed_images/横歩取り３失敗１４.png",
+    e_imageseiko1_path: "db/seed_images/横歩取り３成功１.png",
+    e_imageseiko2_path: "db/seed_images/横歩取り３成功２.png",
+    e_imageseiko3_path: "db/seed_images/横歩取り３成功３.png",
+    e_imageseiko4_path: "db/seed_images/横歩取り３成功４.png",
+    e_imageseiko5_path: "db/seed_images/横歩取り３成功５.png",
+    e_imageseiko6_path: "db/seed_images/横歩取り３成功６.png",
+    e_imageseiko7_path: "db/seed_images/横歩取り３成功７.png",
+    e_imageseiko8_path: "db/seed_images/横歩取り３成功８.png",
+    e_imageseiko9_path: "db/seed_images/横歩取り３成功９.png"
+  },
+  {
+    content: "横歩取りに関するクイズ問題その4。この局面で最善手は？",
+    image_path: "db/seed_images/横歩取り４.png",
+    pattern: "横歩取り",
+    option1_path: "db/seed_images/横歩取り４失敗１.png",
+    option2_path: "db/seed_images/横歩取り４成功１.png",
+    correct: 2,
+    e_imagesippai1_path: "db/seed_images/横歩取り４失敗１.png",
+    e_imagesippai2_path: "db/seed_images/横歩取り４失敗２.png",
+    e_imagesippai3_path: "db/seed_images/横歩取り４失敗３.png",
+    e_imagesippai4_path: "db/seed_images/横歩取り４失敗４.png",
+    e_imagesippai5_path: "db/seed_images/横歩取り４失敗５.png",
+    e_imagesippai6_path: "db/seed_images/横歩取り４失敗６.png",
+    e_imagesippai7_path: "db/seed_images/横歩取り４失敗７.png",
+    e_imagesippai8_path: "db/seed_images/横歩取り４失敗８.png",
+    e_imagesippai9_path: "db/seed_images/横歩取り４失敗９.png",
+    e_imagesippai10_path: "db/seed_images/横歩取り４失敗１０.png",
+    e_imagesippai11_path: "db/seed_images/横歩取り４失敗１１.png",
+    e_imagesippai12_path: "db/seed_images/横歩取り４失敗１２.png",
+    e_imagesippai13_path: "db/seed_images/横歩取り４失敗１３.png",
+    e_imagesippai14_path: "db/seed_images/横歩取り４失敗１４.png",
+    e_imagesippai15_path: "db/seed_images/横歩取り４失敗１５.png",
+    e_imagesippai16_path: "db/seed_images/横歩取り４失敗１６.png",
+    e_imageseiko1_path: "db/seed_images/横歩取り４成功１.png",
+    e_imageseiko2_path: "db/seed_images/横歩取り４成功２.png",
+    e_imageseiko3_path: "db/seed_images/横歩取り４成功３.png"
+  },
+  {
+    content: "横歩取りに関するクイズ問題その5。この局面で最善手は？",
+    image_path: "db/seed_images/横歩取り５.png",
+    pattern: "横歩取り",
+    option1_path: "db/seed_images/横歩取り５成功１.png",
+    option2_path: "db/seed_images/横歩取り５失敗１.png",
+    correct: 1,
+    e_imagesippai1_path: "db/seed_images/横歩取り５失敗１.png",
+    e_imagesippai2_path: "db/seed_images/横歩取り５失敗２.png",
+    e_imagesippai3_path: "db/seed_images/横歩取り５失敗３.png",
+    e_imagesippai4_path: "db/seed_images/横歩取り５失敗４.png",
+    e_imagesippai5_path: "db/seed_images/横歩取り５失敗５.png",
+    e_imagesippai6_path: "db/seed_images/横歩取り５失敗６.png",
+    e_imageseiko1_path: "db/seed_images/横歩取り５成功１.png",
+    e_imageseiko2_path: "db/seed_images/横歩取り５成功２.png",
+    e_imageseiko3_path: "db/seed_images/横歩取り５成功３.png",
+    e_imageseiko4_path: "db/seed_images/横歩取り５成功４.png",
+    e_imageseiko5_path: "db/seed_images/横歩取り５成功５.png"
+  },
+  {
+    content: "横歩取りに関するクイズ問題その6。この局面で最善手は？",
+    image_path: "db/seed_images/横歩取り６.png",
+    pattern: "横歩取り",
+    option1_path: "db/seed_images/横歩取り６失敗１.png",
+    option2_path: "db/seed_images/横歩取り６成功１.png",
+    correct: 2,
+    e_imagesippai1_path: "db/seed_images/横歩取り６失敗１.png",
+    e_imagesippai2_path: "db/seed_images/横歩取り６失敗２.png",
+    e_imageseiko1_path: "db/seed_images/横歩取り６成功１.png",
+    e_imageseiko2_path: "db/seed_images/横歩取り６成功２.png",
+    e_imageseiko3_path: "db/seed_images/横歩取り６成功３.png",
+    e_imageseiko4_path: "db/seed_images/横歩取り６成功４.png",
+    e_imageseiko5_path: "db/seed_images/横歩取り６成功５.png"
+  },
+  {
+    content: "横歩取りに関するクイズ問題その7。この局面で最善手は？",
+    image_path: "db/seed_images/横歩取り７.png",
+    pattern: "横歩取り",
+    option1_path: "db/seed_images/横歩取り７成功１.png",
+    option2_path: "db/seed_images/横歩取り７失敗１.png",
+    correct: 1,
+    e_imagesippai1_path: "db/seed_images/横歩取り７失敗１.png",
+    e_imagesippai2_path: "db/seed_images/横歩取り７失敗２.png",
+    e_imagesippai3_path: "db/seed_images/横歩取り７失敗３.png",
+    e_imagesippai4_path: "db/seed_images/横歩取り７失敗４.png",
+    e_imageseiko1_path: "db/seed_images/横歩取り７成功１.png",
+    e_imageseiko2_path: "db/seed_images/横歩取り７成功２.png",
+    e_imageseiko3_path: "db/seed_images/横歩取り７成功３.png",
+    e_imageseiko4_path: "db/seed_images/横歩取り７成功４.png",
+    e_imageseiko5_path: "db/seed_images/横歩取り７成功５.png",
+    e_imageseiko6_path: "db/seed_images/横歩取り７成功６.png",
+    e_imageseiko7_path: "db/seed_images/横歩取り７成功７.png"
+  },
+  {
+    content: "横歩取りに関するクイズ問題その8。この局面で最善手は？",
+    image_path: "db/seed_images/横歩取り８.png",
+    pattern: "横歩取り",
+    option1_path: "db/seed_images/横歩取り８失敗１.png",
+    option2_path: "db/seed_images/横歩取り８成功１.png",
+    correct: 2,
+    e_imagesippai1_path: "db/seed_images/横歩取り８失敗１.png",
+    e_imagesippai2_path: "db/seed_images/横歩取り８失敗２.png",
+    e_imagesippai3_path: "db/seed_images/横歩取り８失敗３.png",
+    e_imagesippai4_path: "db/seed_images/横歩取り８失敗４.png",
+    e_imageseiko1_path: "db/seed_images/横歩取り８成功１.png",
+    e_imageseiko2_path: "db/seed_images/横歩取り８成功２.png",
+    e_imageseiko3_path: "db/seed_images/横歩取り８成功３.png"
+  },
+  {
+    content: "横歩取りに関するクイズ問題その9。この局面で最善手は？",
+    image_path: "db/seed_images/横歩取り９.png",
+    pattern: "横歩取り",
+    option1_path: "db/seed_images/横歩取り９成功１.png",
+    option2_path: "db/seed_images/横歩取り９失敗１.png",
+    correct: 1,
+    e_imagesippai1_path: "db/seed_images/横歩取り９失敗１.png",
+    e_imagesippai2_path: "db/seed_images/横歩取り９失敗２.png",
+    e_imagesippai3_path: "db/seed_images/横歩取り９失敗３.png",
+    e_imagesippai4_path: "db/seed_images/横歩取り９失敗４.png",
+    e_imagesippai5_path: "db/seed_images/横歩取り９失敗５.png",
+    e_imagesippai6_path: "db/seed_images/横歩取り９失敗６.png",
+    e_imagesippai7_path: "db/seed_images/横歩取り９失敗７.png",
+    e_imagesippai8_path: "db/seed_images/横歩取り９失敗８.png",
+    e_imageseiko1_path: "db/seed_images/横歩取り９成功１.png",
+    e_imageseiko2_path: "db/seed_images/横歩取り９成功２.png",
+    e_imageseiko3_path: "db/seed_images/横歩取り９成功３.png",
+    e_imageseiko4_path: "db/seed_images/横歩取り９成功４.png",
+    e_imageseiko5_path: "db/seed_images/横歩取り９成功５.png"
+  },
+  {
+    content: "横歩取りに関するクイズ問題その10。この局面で最善手は？",
+    image_path: "db/seed_images/横歩取り１０.png",
+    pattern: "横歩取り",
+    option1_path: "db/seed_images/横歩取り１０失敗１.png",
+    option2_path: "db/seed_images/横歩取り１０成功１.png",
+    correct: 2,
+    e_imagesippai1_path: "db/seed_images/横歩取り１０失敗１.png",
+    e_imagesippai2_path: "db/seed_images/横歩取り１０失敗２.png",
+    e_imagesippai3_path: "db/seed_images/横歩取り１０失敗３.png",
+    e_imagesippai4_path: "db/seed_images/横歩取り１０失敗４.png",
+    e_imagesippai5_path: "db/seed_images/横歩取り１０失敗５.png",
+    e_imagesippai6_path: "db/seed_images/横歩取り１０失敗６.png",
+    e_imagesippai7_path: "db/seed_images/横歩取り１０失敗７.png",
+    e_imagesippai8_path: "db/seed_images/横歩取り１０失敗８.png",
+    e_imagesippai9_path: "db/seed_images/横歩取り１０失敗９.png",
+    e_imagesippai10_path: "db/seed_images/横歩取り１０失敗１０.png",
+    e_imageseiko1_path: "db/seed_images/横歩取り１０成功１.png",
+    e_imageseiko2_path: "db/seed_images/横歩取り１０成功２.png",
+    e_imageseiko3_path: "db/seed_images/横歩取り１０成功３.png",
+    e_imageseiko4_path: "db/seed_images/横歩取り１０成功４.png",
+    e_imageseiko5_path: "db/seed_images/横歩取り１０成功５.png",
+    e_imageseiko6_path: "db/seed_images/横歩取り１０成功６.png",
+    e_imageseiko7_path: "db/seed_images/横歩取り１０成功７.png",
+    e_imageseiko8_path: "db/seed_images/横歩取り１０成功８.png",
+    e_imageseiko9_path: "db/seed_images/横歩取り１０成功９.png"
+  }
+]
+  questions.each do |q|
+  question = Question.create!(
+    content: q[:content],
+    pattern: q[:pattern],
+    correct: q[:correct]
+  )
+  question.image.attach(
+    io: File.open(Rails.root.join(q[:image_path])),
+    filename: File.basename(q[:image_path]),
+    content_type: "image/png"
+  )
+  question.option1.attach(
+    io: File.open(Rails.root.join(q[:option1_path])),
+    filename: File.basename(q[:option1_path]),
+    content_type: "image/png"
+  )
+  question.option2.attach(
+    io: File.open(Rails.root.join(q[:option2_path])),
+    filename: File.basename(q[:option2_path]),
+    content_type: "image/png"
+  )
+
+    q.each do |key, path|
+    # e_image で始まるキーだけ拾う（例: :e_imagesippai1_path）
+    next unless key.to_s.start_with?("e_image")
+    next if path.blank?
+    # :e_imagesippai1_path → "e_imagesippai1"
+    attachment_name = key.to_s.sub(/_path\z/, "")
+    # Question モデルの ActiveStorage に attach
+    question.public_send(attachment_name).attach(
+      io: File.open(Rails.root.join(path)),
+      filename: File.basename(path),
+      content_type: "image/png"
+    )
+  end
+end
