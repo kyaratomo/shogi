@@ -1,0 +1,90 @@
+<div class="top-title">
+
+  <!-- タイトル -->
+  <div class="title_h1">
+    <h2>あなたにおすすめの戦法は…</h2>
+  </div>
+
+  <div class="result-card">
+
+    <% value = [@shindan.question1, @shindan.question2, @shindan.question3] %>
+
+    <% if value == ["1", "1", "1"] %>
+      <%= render partial: "shindans/pattern",
+          locals: {
+            title: "右四間飛車",
+            description: "相手が囲いを作っている間に角・銀・飛車を使って攻め崩す戦法です。攻め将棋が好きな人におすすめ。",
+            images: ["１右四間飛車.png","２右四間飛車.png","３右四間飛車.png","４右四間飛車.png","５右四間飛車.png","６右四間飛車.png"],
+            quiz: pattern_quiz_path("右四間飛車",1)
+          } %>
+
+    <% elsif value == ["1", "1", "2"] %>
+      <%= render partial: "shindans/pattern",
+          locals: {
+            title: "中飛車",
+            description: "飛車を５筋に振り中央突破を狙う攻撃的な戦法。",
+            images: ["１中飛車.png","２中飛車.png","３中飛車.png"],
+            quiz: pattern_quiz_path("ゴキゲン中飛車",1)
+          } %>
+
+    <% elsif value == ["1", "2", "1"] %>
+      <%= render partial: "shindans/pattern",
+          locals: {
+            title: "棒銀",
+            description: "飛車先に銀を繰り出して一直線に攻めるシンプルな戦法。",
+            images: ["１棒銀.png","２棒銀.png","３棒銀.png","４棒銀.png","５棒銀.png","６棒銀.png"],
+            quiz: pattern_quiz_path("棒銀",1)
+          } %>
+
+    <% elsif value == ["1", "2", "2"] %>
+      <%= render partial: "shindans/pattern",
+          locals: {
+            title: "奇襲戦法",
+            description: "相手の準備前に仕掛ける速攻型の戦法です。今回は”鬼殺し”と”早石田を紹介します”",
+            images: ["１鬼殺し.png","２鬼殺し.png","３鬼殺し.png","４鬼殺し.png","５鬼殺し.png","６鬼殺し.png","１早石田.png","２早石田.png","３早石田.png"],
+            quiz: pattern_quiz_path("奇襲戦法",1)
+          } %>
+
+    <% elsif value == ["2", "1", "1"] %>
+      <%= render partial: "shindans/pattern",
+          locals: {
+            title: "三間飛車",
+            description: "攻守バランスがよく、急戦・持久戦に対応できる万能型。",
+            images: ["１三間飛車.png","２三間飛車.png","３三間飛車.png","４三間飛車.png","５三間飛車.png"],
+            quiz: pattern_quiz_path("三間飛車",1)
+          } %>
+
+    <% elsif value == ["2", "1", "2"] %>
+      <%= render partial: "shindans/pattern",
+          locals: {
+            title: "横歩取り",
+            description: "柔軟な対応力が求められる高度な戦法。",
+            images: ["１横歩取り.png","２横歩取り.png","３横歩取り.png","４横歩取り.png","５横歩取り.png"],
+            quiz: pattern_quiz_path("横歩取り",1)
+          } %>
+
+    <% elsif value == ["2", "2", "1"] %>
+      <%= render partial: "shindans/pattern",
+          locals: {
+            title: "四間飛車",
+            description: "攻守バランスがよく、相手に合わせて戦える王道戦法。",
+            images: ["１四間飛車.png","２四間飛車.png","３四間飛車.png","４四間飛車.png","５四間飛車.png"],
+            quiz: pattern_quiz_path("四間飛車",1)
+          } %>
+
+    <% elsif value == ["2", "2", "2"] %>
+      <%= render partial: "shindans/pattern",
+          locals: {
+            title: "穴熊",
+            description: "最強の守りを構築し、じっくり戦える戦法。",
+            images: ["１穴熊.png","２穴熊.png","３穴熊.png","４穴熊.png","５穴熊.png","６穴熊.png","７穴熊.png","８穴熊.png","９穴熊.png","１０穴熊.png","１１穴熊.png","１２穴熊.png"],
+            quiz: pattern_quiz_path("穴熊",1)
+          } %>
+    <% end %>
+
+  </div>
+<div class="back-button">
+    <%= link_to "戻る", tops_home_path %>
+  </div>
+
+</div>

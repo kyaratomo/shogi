@@ -1,0 +1,15 @@
+<div class="pattern-block">
+    <div class="title">
+        <%= title %>
+    </div>
+    <p class="description"><%= description %></p>
+
+    <div class="image-slider">
+        <% images.each do |img| %>
+        <%= image_tag img, class: "slide-img" %>
+        <% end %>
+    </div>
+    <div class="button_quizu">
+        <%= link_to "#{title}クイズへ", quiz, class: "quiz-button" %>
+        </div>
+</div>

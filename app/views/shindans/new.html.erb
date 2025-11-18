@@ -1,0 +1,55 @@
+<div class="top-title">
+
+  <div class="form-card">
+
+    <%= form_for(@shindan, class: 'form-horizontal', role: 'form') do |f| %>
+
+      <div class="question-block">
+        <p class="question-title">Q1. どちらかと言うと</p>
+        <label class="radio-label">
+          <%= f.radio_button :question1, "1", id: "q1_a" %>
+          <span>攻撃の方が好きだ</span>
+        </label>
+        <label class="radio-label">
+          <%= f.radio_button :question1, "2", id: "q1_b" %>
+          <span>守備の方が好きだ</span>
+        </label>
+      </div>
+
+      <div class="question-block">
+        <p class="question-title">Q2. どちらかと言うと</p>
+        <label class="radio-label">
+          <%= f.radio_button :question2, "1", id: "q2_a" %>
+          <span>自由に戦いたい</span>
+        </label>
+        <label class="radio-label">
+          <%= f.radio_button :question2, "2", id: "q2_b" %>
+          <span>決まった道筋で戦いたい</span>
+        </label>
+      </div>
+
+      <div class="question-block">
+        <p class="question-title">Q3. どちらかと言うと</p>
+        <label class="radio-label">
+          <%= f.radio_button :question3, "1", id: "q3_a" %>
+          <span>強い駒をたくさん動かしたい</span>
+        </label>
+        <label class="radio-label">
+          <%= f.radio_button :question3, "2", id: "q3_b" %>
+          <span>弱い駒でちくちく戦いたい</span>
+        </label>
+      </div>
+
+      <div class="submit-container">
+        <%= f.submit "結果を見る", class: "submit-button" %>
+      </div>
+
+    <% end %>
+
+  </div>
+
+  <div class="back-button">
+    <%= link_to "戻る", tops_home_path %>
+  </div>
+
+</div>

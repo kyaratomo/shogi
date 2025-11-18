@@ -1,0 +1,66 @@
+<div class="top-title">  <!-- 背景をトップと統一 -->
+
+  <div class="quiz-wrapper">
+
+    <div class="title_h1">
+      <h3>第<%= @q_num %>問</h3>
+      <h2><%= @q.content %></h2>
+    </div>
+
+    <div class="quiz-card">
+
+      <%= form_with(url: pattern_quiz_create_path(@pattern), method: :post) do |f| %>
+
+        <% if @q.image.attached? %>
+          <%= image_tag @q.image, class: "question-img" %>
+        <% end %>
+
+        <div class="choice-section">
+
+          <!-- 選択肢1 -->
+          <label class="choice-box">
+            <%= f.radio_button :choice, 1, class: "radio-hidden" %>
+            <div class="choice-inner">
+              <%= image_tag @q.option1, class: "choice-img" %>
+            </div>
+          </label>
+
+          <!-- 選択肢2 -->
+          <label class="choice-box">
+            <%= f.radio_button :choice, 2, class: "radio-hidden" %>
+            <div class="choice-inner">
+              <%= image_tag @q.option2, class: "choice-img" %>
+            </div>
+          </label>
+
+        </div>
+
+        <%= f.hidden_field :q_id, value: @q.id %>
+        <%= f.hidden_field :q_num, value: @q_num %>
+
+        <% if @q_num != '1' %>
+          <%= f.hidden_field :user_id, value: @user_id %>
+        <% end %>
+
+        <%= hidden_field_tag :pattern, @pattern %>
+
+        <div class="quiz-button-wrap">
+          <% if @q_num.to_i < 5 %>
+            <%= f.submit '次の問題へ', class: "next-button" %>
+          <% else %>
+            <%= f.submit '結果を表示する', class: "next-button" %>
+          <% end %>
+        </div>
+
+      <% end %>
+
+    </div>
+
+    <!-- 戻るボタン -->
+    <div class="back-button-fixed">
+      <a href="/">戻る</a>
+    </div>
+
+  </div>
+
+</div>

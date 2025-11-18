@@ -1,0 +1,75 @@
+<div class="top-title">
+
+  <div class="result-wrapper">
+    <div class="title_h1">
+      <h3>結果表示</h3>
+    </div>
+
+    <% (1..5).each do |i| %>
+      <% q_attr = "q#{i}_" %>
+      <% @q = Question.find(@user_ans[q_attr + 'id'].to_i) %>
+
+      <div class="result-card">
+
+        <!-- 折りたたみトリガー -->
+        <button class="toggle-button" type="button" onclick="toggleSection('section_<%= i %>')">
+          第<%= i %>問
+          <span class="result-judge <%= @user_ans[q_attr + 'isCorrect'] ? 'correct' : 'wrong' %>">
+            <%= @user_ans[q_attr + 'isCorrect'] ? '◯' : '✕' %>
+          </span>
+        </button>
+
+        <!-- 折りたたみ内容 -->
+        <div id="section_<%= i %>" class="hidden-section">
+
+          <p class="your-answer">
+            あなたの回答：<%= @user_ans[q_attr + 'yourans'] %>
+          </p>
+
+          <p class="correct-answer">
+            正解：<%= @q.correct %>
+          </p>
+
+          <div class="image-columns">
+
+  <!-- 成功(seiko)画像 -->
+  <div class="image-column">
+    <h3 class="image-label seiko-label">成功</h3>
+    <% (1..25).each do |n| %>
+      <% img = @q.send("e_imageseiko#{n}") %>
+      <% if img.attached? %>
+        <%= image_tag img, class: "result-img" %>
+      <% end %>
+    <% end %>
+  </div>
+
+  <!-- 失敗(sippai)画像 -->
+  <div class="image-column">
+    <h3 class="image-label sippai-label">失敗</h3>
+    <% (1..25).each do |n| %>
+      <% img = @q.send("e_imagesippai#{n}") %>
+      <% if img.attached? %>
+        <%= image_tag img, class: "result-img" %>
+      <% end %>
+    <% end %>
+  </div>
+
+</div>
+
+        </div>
+
+      </div>
+    <% end %>
+
+    <div class="back-button-fixed">
+      <%= link_to "選択画面へ", tops_path %>
+    </div>
+
+  </div>
+<script>
+function toggleSection(id) {
+  const section = document.getElementById(id);
+  section.style.display = (section.style.display === "block") ? "none" : "block";
+}
+</script>
+</div>

@@ -1,0 +1,2 @@
+class Kaisetu < ApplicationRecord
+end
